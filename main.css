@@ -1,0 +1,142 @@
+body, h1, body, div, a, ol, ul, li, h2, p, em, img, button {
+	padding: 0;
+	margin: 0;
+	outline: 0;	
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+}
+
+body {
+	background-color: white;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+/* #logo {
+	position: fixed;
+	top: 5px;
+	left: 10px;
+	width: 140px;
+	z-index: 99;
+	transition-duration: 0.2s;
+}
+
+#logo img {
+	width: 100%;
+}
+
+#logo:hover {
+	opacity: 0.9;
+	transform: scale(1.05);
+	cursor: pointer;
+} */
+
+#header {
+	padding-top: 30vh;
+	width: 100%;
+	margin: auto;
+	display: block;
+	height: 100vh;
+	text-align: center;
+	color: white;
+	position: absolute;
+	z-index: 88;
+}
+
+#headermask {
+	position: absolute;
+	z-index: 20;
+	background: linear-gradient(45deg, #6A00FF, #3BB5DB);
+	width: 150%;
+	margin-left: -25%;
+	height: 115vh;
+	opacity: 0.6;
+	top: 0;
+	left: 0;
+	border-radius: 0px 0px 100% 100%;
+}
+
+#headerimg {
+	position: absolute;
+	z-index: 0;
+	background: url('images/header.jpg');
+	background-size: 100%;
+	filter: blur(5px);
+	width: 150%;
+	margin-left: -25%;
+	height: 115vh;
+	top: 0;
+	left: 0;
+	border-radius: 0px 0px 100% 100%;
+}
+
+#header h1 {
+	margin: auto;
+	display: block;
+	font-size: 100px;
+	transition-duration: 0.2s;
+}
+
+#header h3 {
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+
+#header a {
+	font-size: 24px;
+	padding: 10px 40px;
+	transition-duration: 0.2s;
+	border: 2px solid white;
+	color: white;
+	border-radius: 30px;
+}
+
+/*  #461f71     #f2bb1d*/
+
+#header a:hover {
+	text-decoration: none;
+	background-color: #320E3B;
+	border: 2px solid #320E3B;
+	cursor: pointer;
+	padding: 12px 50px;
+}
+
+#info {
+	position: relative;
+	top: 115vh;
+	text-align: center;
+	padding: 15vh 10%;
+	font-size: 30px;
+}
+
+#faq {
+	background-color: #191D32;
+	width: 150%;
+	margin-left: -25%;
+	position: relative;
+	top: 115vh;
+	text-align: center;
+	padding: 15vh 25%;
+	border-radius: 100% 100% 0px 0px;
+	color: white;
+}
+
+#faq h1 {
+	font-size: 50px;
+	padding-bottom: 30px;
+}
+
+.faqq {
+	padding: 10px 0px;
+	font-size: 22px;
+}
+
+.faqa {
+	padding-bottom: 30px;
+	font-size: 20px;
+}
+
+
+
+
+
