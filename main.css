@@ -46,7 +46,7 @@ body {
 #headermask {
 	position: absolute;
 	z-index: 20;
-	background: linear-gradient(45deg, #6A00FF, #3BB5DB);
+	background: linear-gradient(#3BB5DB, #6A00FF);
 	width: 150%;
 	margin-left: -25%;
 	height: 115vh;
