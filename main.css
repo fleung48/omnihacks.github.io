@@ -12,11 +12,11 @@ body {
 	overflow-x: hidden;
 }
 
-/* #logo {
+#logo {
 	position: fixed;
 	top: 5px;
 	left: 10px;
-	width: 140px;
+	width: 120px;
 	z-index: 99;
 	transition-duration: 0.2s;
 }
@@ -27,9 +27,9 @@ body {
 
 #logo:hover {
 	opacity: 0.9;
-	transform: scale(1.05);
+	transform: rotateZ(180deg);
 	cursor: pointer;
-} */
+}
 
 #header {
 	padding-top: 30vh;
@@ -116,9 +116,10 @@ body {
 	position: relative;
 	top: 115vh;
 	text-align: center;
-	padding: 15vh 25%;
-	border-radius: 100% 100% 0px 0px;
+	padding: 15vh 25% 20vh 25%;
+	border-radius: 100%;
 	color: white;
+	z-index: 20;
 }
 
 #faq h1 {
@@ -128,12 +129,70 @@ body {
 
 .faqq {
 	padding: 10px 0px;
-	font-size: 22px;
+	font-size: 24px;
 }
 
 .faqa {
 	padding-bottom: 30px;
-	font-size: 20px;
+	font-size: 22px;
+}
+
+#organizers {
+	padding: 240px 10% 190px 10%;
+	background: linear-gradient(#6A00FF, #3BB5DB);
+	position: relative;
+	margin-top: -80px;
+	z-index: 0;
+	top: 115vh;
+	text-align: center;
+}
+
+#organizers h1 {
+	font-size: 60px;
+	color: white;
+}
+
+#sponsors {
+	padding: 80px 10% 500px 10%;
+	background-color: white;
+	position: relative;
+	top: 115vh;
+	text-align: center;
+	border-radius: 100%;
+	margin-top: -100px;
+	width: 150%;
+	margin-left: -25%;
+}
+
+#sponsors h1 {
+	font-size: 60px;
+}
+
+#footer {
+	width: 100%;
+	top: 0;
+	padding: 60px 0px;
+	z-index: 55;
+	background: linear-gradient(#320E3B, #191D32);
+	position: relative;
+	top: 115vh;
+}
+
+#footer .col-sm-2 a, #footer .col-sm-1 a {
+	margin: auto;
+	display: block;
+}
+
+#footer a {
+	font-size: 60px;
+	padding: 20px 0px;
+	color: white;
+	text-align: center;
+	transition-duration: 0.2s;
+}
+
+#footer a:hover {
+	color: #F2BC20;
 }
 
 
