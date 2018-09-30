@@ -174,19 +174,27 @@ body {
 }
 
 #sponsors {
-	padding: 80px 10% 500px 10%;
+	padding: 80px 44% 500px 44%;
 	background-color: white;
 	position: relative;
 	top: 115vh;
 	text-align: center;
 	border-radius: 100%;
 	margin-top: -100px;
-	width: 150%;
-	margin-left: -25%;
+	width: 170%;
+	margin-left: -35%;
 }
 
 #sponsors h1 {
 	font-size: 60px;
+}
+
+#sponsors .row {
+	padding: 40px 0px 60px 0px;
+}
+
+#sponsors img {
+	width: 100%;
 }
 
 #footer {
