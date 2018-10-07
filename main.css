@@ -111,13 +111,13 @@ body {
 }
 
 #info h1 {
-	font-size: 60px;
-	font-weight: bold;
+	font-size: 40px;
 	color: #3BB5DB;
+	padding-bottom: 30px;
 }
 
 #faq {
-	background-color: #191D32;
+	background: linear-gradient(#192D43, #223);
 	width: 170%;
 	margin-left: -35%;
 	position: relative;
@@ -147,11 +147,11 @@ body {
 
 #schedule {
 	padding: 280px 10% 190px 10%;
-	background: linear-gradient(#6A00FF, #3BB5DB);
 	position: relative;
 	margin-top: -170px;
 	z-index: 0;
 	top: 115vh;
+	background: linear-gradient(0deg, black, #3BB5DB);
 	text-align: center;
 }
 
@@ -176,12 +176,13 @@ body {
 }
 
 #schedule td {
-	font-size: 18px;
+	font-size: 20px;
 	padding: 15px 0px;
+	transition-duration: 0.2s;
 }
 
 #sponsors {
-	padding: 80px 44% 500px 44%;
+	padding: 80px 44% 300px 44%;
 	background-color: white;
 	position: relative;
 	top: 115vh;
@@ -190,6 +191,89 @@ body {
 	margin-top: -100px;
 	width: 170%;
 	margin-left: -35%;
+}
+
+#organizers {
+	position: relative;
+	top: 115vh;
+	width: 100%;
+	padding: 100px 8%;
+	background: linear-gradient(white, #ccc);
+}
+
+#organizers h1 {
+	font-size: 70px;
+	text-align: center;
+}
+
+#organizers img {
+	width: 100%;
+}
+
+#organizers .col-sm-4 {
+	margin: 30px 0px;
+}
+
+#organizers .descrip {
+	position: relative;
+}
+
+#organizers .more {
+	position: absolute;
+	background-color: #e86b55;
+	padding: 0px 20px 0px 20px;
+	border-radius: 30px;
+	top: 0px;
+	right: 0;
+	transition-duration: 0.2s;
+}
+
+#organizers .more .plus {
+	color: white;
+	margin: 0;
+	font-size: 40px;
+	margin-bottom: 5px;
+	transition-duration: 0.2s;
+}
+
+.rotated {
+	transform: rotate(45deg) translateX(5px);
+	margin-bottom: 0px;
+}
+
+#organizers .more:hover {
+	background-color: #d74228;
+	cursor: pointer;
+	box-shadow: 2px 2px 5px #444;
+}
+
+#organizers .more .showmore {
+	display: none;
+	margin: 0;
+}
+
+.showmore a {
+	display: block;
+	color: white;
+	font-size: 25px;
+	padding: 5px 0px;
+	transition-duration: 0.2s;
+}
+
+.showmore a:hover {
+	color: #3BB5DB;
+}
+
+#organizers h2 {
+	font-size: 40px;
+	text-align: center;
+	width: 80%;
+}
+
+#organizers h3 {
+	font-size: 25px;
+	text-align: center;
+	width: 80%;
 }
 
 #sponsors h1 {
@@ -206,7 +290,6 @@ body {
 
 #footer {
 	width: 100%;
-	top: 0;
 	padding: 60px 0px;
 	z-index: 55;
 	background: linear-gradient(#320E3B, #191D32);
