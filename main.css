@@ -105,9 +105,15 @@ body {
 #info {
 	position: relative;
 	top: 115vh;
-	text-align: center;
+	text-align: left;
 	padding: 15vh 10%;
 	font-size: 30px;
+}
+
+#info h1 {
+	font-size: 60px;
+	font-weight: bold;
+	color: #3BB5DB;
 }
 
 #faq {
