@@ -146,7 +146,7 @@ body {
 }
 
 #schedule {
-	padding: 280px 10% 190px 10%;
+	padding: 280px 10% 290px 10%;
 	position: relative;
 	margin-top: -170px;
 	z-index: 0;
@@ -185,7 +185,7 @@ body {
 	padding: 80px 44% 300px 44%;
 	background-color: white;
 	position: relative;
-	top: 115vh;
+	top: 100vh;
 	text-align: center;
 	border-radius: 100%;
 	margin-top: -100px;
@@ -195,7 +195,7 @@ body {
 
 #organizers {
 	position: relative;
-	top: 115vh;
+	top: 80vh;
 	width: 100%;
 	padding: 100px 8%;
 	background: linear-gradient(white, #ccc);
@@ -209,6 +209,12 @@ body {
 #organizers img {
 	border-radius: 50%;
 	width: 100%;
+}
+
+#interested {
+	text-align: center;
+	font-size: 30px;
+	padding: 10px 0px;
 }
 
 #organizers .col-sm-3 {
@@ -287,6 +293,7 @@ body {
 
 #sponsors img {
 	width: 100%;
+	padding: 20px;
 }
 
 #footer {
@@ -295,7 +302,7 @@ body {
 	z-index: 55;
 	background: linear-gradient(#320E3B, #191D32);
 	position: relative;
-	top: 115vh;
+	top: 80vh;
 }
 
 #footer .col-sm-2 a, #footer .col-sm-1 a {
