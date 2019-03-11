@@ -305,6 +305,10 @@ body {
 	top: 80vh;
 }
 
+#footer img {
+	width: 100%;
+}
+
 #footer .col-sm-2 a, #footer .col-sm-1 a {
 	margin: auto;
 	display: block;
