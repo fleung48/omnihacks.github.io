@@ -21,6 +21,13 @@ body {
 	transition-duration: 0.2s;
 }
 
+#signupform {
+	position: relative;
+	top: 80vh;
+	width: 100%;
+	background-color: black;
+}
+
 #logo img {
 	width: 100%;
 }
@@ -302,7 +309,7 @@ body {
 	z-index: 55;
 	background: linear-gradient(#320E3B, #191D32);
 	position: relative;
-	top: 80vh;
+	top: 76vh;
 }
 
 #footer img {

@@ -12,3 +12,15 @@ $(document).ready(function(){
 	    });
 	});
 });
+
+$("#scrolltoform").click(function(event) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: $("#signupform").offset().top }, 800);
+        return false;
+    });
+
+$("#logo").click(function(event) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, 800);
+        return false;
+    });
