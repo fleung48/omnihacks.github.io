@@ -123,6 +123,15 @@ body {
 	padding-bottom: 30px;
 }
 
+#map {
+	max-width: 600px;
+	min-width: 300px;
+	height: 255px;
+	padding-right: 10%;
+	padding-left: 10%;
+	background-color: grey;
+}
+
 #faq {
 	background: linear-gradient(#192D43, #223);
 	width: 170%;
